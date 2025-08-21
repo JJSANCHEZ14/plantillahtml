@@ -49,6 +49,7 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+
 }
 
 body {
@@ -70,6 +71,15 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+} 
+
+@media screen and (min-width: 400px) {
+  
+		.table{
+
+			display: none;
+		}
+	
 }
 
 /* Basic */
@@ -81,6 +91,17 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		html, body {
+			min-width: 320px;
+		}
+
+
+		
+	}
+
+		@media screen and (max-width: 412px) {
+
+		.tabla {
+			justify-content: center;
 			min-width: 320px;
 		}
 
@@ -197,6 +218,7 @@ input, select, textarea {
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 		}
+
 	
 
 	h1 {
